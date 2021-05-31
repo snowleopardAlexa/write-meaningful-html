@@ -45,17 +45,42 @@ tfoot {
     overflow: auto;
 }
 
-@media (max-width: 1600px) {
-   table, tr, td {
-       display: block;
-   }
-   th, thead {
-       display: none;
-   }
-   td:nth-child(1)::before {
-       content: "Item #: "
-   }
-   td:nth-child(2)::before {
-    content: "Product or Service: "
+@media (max-width: 600px) {
+    table {
+        border: none;
+    }
+
+    table, tr, td {
+        display: block;
+    }
+
+    th, thead {
+        display: none;
+    }
+    td:nth-child(1)::before {
+        content: "Day: ";
+    }
+    td:nth-child(2)::before {
+        content: "Date: ";
+    }
+    td:nth-child(4)::before {
+        content: "Regular Hours: ";
+    }
+    td:nth-child(5)::before {
+        content: "Overtime Hours: ";
+    }
+    td:nth-child(6)::before {
+        content: "Sick Hours: ";
+    }
+    td:nth-child(7)::before {
+        content: "Vacation Hours: ";
+    }
+    td:nth-child(8)::before {
+        content: "Total: ";
+    }
+    td:nth-child(9)::before {
+        content: "Total hours in the following categories: ";
+    }
+    
 }
-}
+
