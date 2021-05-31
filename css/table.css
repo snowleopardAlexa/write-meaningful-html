@@ -40,3 +40,7 @@ tfoot tr td:first-child {
 tfoot {
     border-top: 5px solid black;
 }
+
+.tablescroll {
+    overflow: auto;
+}
