@@ -6,4 +6,5 @@ table {
 
 td, th {
     border: 1px solid purple;
+    padding: 0.5rem;
 }
