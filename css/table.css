@@ -1,5 +1,7 @@
 table {
     border: 1px solid black;
+    /* eliminates double border effect */
+    border-collapse: collapse;
 }
 
 td, th {
