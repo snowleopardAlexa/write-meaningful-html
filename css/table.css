@@ -44,3 +44,18 @@ tfoot {
 .tablescroll {
     overflow: auto;
 }
+
+@media (max-width: 1600px) {
+   table, tr, td {
+       display: block;
+   }
+   th, thead {
+       display: none;
+   }
+   td:nth-child(1)::before {
+       content: "Item #: "
+   }
+   td:nth-child(2)::before {
+    content: "Product or Service: "
+}
+}
