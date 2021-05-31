@@ -1,23 +1,42 @@
 table {
-    border: 1px solid black;
     /* eliminates double border effect */
     border-collapse: collapse;
 }
 
 td, th {
-    border-bottom: 1px solid purple;
+    border: 1px solid purple;
     padding: 0.5rem;
 }
 
 /* eliminate border from the last child of td */
 tfoot tr:last-child td {
-    border-bottom: none;
+    border-bottom: 1px solid orange;
 }
 
 caption {
     font-weight: bold;
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 1rem 0;
-    color: yellow;
+    color: green;
+}
+
+th {
+    text-align: left;
+    background-color: salmon;
+    color:white;
+}
+
+tbody tr:nth-child(odd),
+tfoot tr:nth-child(even) {
+    background-color: slateblue;
+}
+
+tfoot tr td:first-child {
+    border: none;
+    background-color: white;
+}
+
+tfoot {
+    border-top: 5px solid black;
 }
