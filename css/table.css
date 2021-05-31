@@ -8,3 +8,8 @@ td, th {
     border-bottom: 1px solid purple;
     padding: 0.5rem;
 }
+
+/* eliminate border from the last child of td */
+tfoot tr:last-child td {
+    border-bottom: none;
+}
