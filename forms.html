@@ -9,7 +9,7 @@
 <body>
     <h2>About you</h2>
     <!--form-->
-    <form id="questions" method="post" action="">
+    <form id="questions" name="questions" method="post" action="">
         <div class="color">
             <div class="label">
                 <label for="favcolor">What is your favorite color?</label>
@@ -39,6 +39,22 @@
                 <label for="website">Website</label>
             </div>
             <input type="url" id="website" name="website">
+       </div>
+       <div>
+           <label for="number">Number</label>
+           <input type="number" name="number" id="number">
+       </div>
+       <div>
+           <label for="date">Birthday</label>
+           <input type="date" name="birthday" id="birthday" min="2018-01-01" max="2018-12-31">
+       </div>
+       <div>
+           <label for="time">Time</label>
+           <input type="time" name="time" id="time" step="1800">
+       </div>
+       <div>
+           <label for="phone">Phone</label>
+           <input type="phone" name="phone" id="phone">
        </div>
         <input type="submit">
     </form>
