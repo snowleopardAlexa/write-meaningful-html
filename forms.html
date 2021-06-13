@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>About you</h2>
+    <!--form-->
+    <form id="questions" name="questions" method="post" action="">
+        <div class="color">
+            <div class="label">
+                <label for="favcolor">What is your favorite color?</label>
+            </div>
+          <input type="text" name="favcolor" id="favcolor">
+        </div>
+        <div>
+            <div class="label">
+                <label for="favcolor">What is your pet's name?</label>
+            </div>
+            <input type="text" name="pet" id="pet">
+        </div>
+        <div>
+            <div class="label">
+                <label for="name">Name</label>
+            </div>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <div class="label">
+                <label for="email">Email</label>
+            </div>
+            <input type="email" id="email" name="emal">
+        </div>
+        <div>
+            <div class="label">
+                <label for="website">Website</label>
+            </div>
+            <input type="url" id="website" name="website">
+       </div>
+       <div>
+           <label for="number">Number</label>
+           <input type="number" name="number" id="number">
+       </div>
+       <div>
+           <label for="date">Birthday</label>
+           <input type="date" name="birthday" id="birthday" min="2018-01-01" max="2018-12-31">
+       </div>
+       <div>
+           <label for="time">Time</label>
+           <input type="time" name="time" id="time" step="1800">
+       </div>
+       <div>
+           <label for="phone">Phone</label>
+           <input type="phone" name="phone" id="phone">
+       </div>
+        <input type="submit">
+        <!--radio-->
+        <label for="blue">Blue</label>
+        <input type="radio" name="favcolor" value="blue" id="blue">
+        <!--checkboxes-->
+
+    </form>
+</body>
+</html>
