@@ -37,5 +37,9 @@ select {
 select:not([multiple]) {
     background: url(double-arrow.png) right center no-repeat;
     background-size: 1em 1em;
-    padding: 1em;
+    padding-right: 1em;
+}
+
+select {
+    padding: 8px 1em 8px 8px;
 }
