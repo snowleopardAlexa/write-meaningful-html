@@ -57,19 +57,35 @@
            <input type="phone" name="phone" id="phone">
        </div>
          <!--radio-->
-         <div>
-            <label for="blue">What is your favorite food?</label>
-        </div>
-        <div>
+      
+        <fieldset>
+            <legend>What is your favorite color</legend>
+        <label for="blue">Blue</label>
         <input type="radio" name="favcolor" value="blue" id="blue">
+        <label for="blue">Red</label>
         <input type="radio" name="favcolor" value="red" id="red" checked>
+        <label for="blue">Green</label>
         <input type="radio" name="favcolor" value="green" id="green">
-        </div>
+       </fieldset>
+       <div>
         <!--checkboxes-->
+        <label for="pizza">What is your favorite pizza?</label>
+        <select name="pizza" id="pizza">
+            <optgroup label="veggies">
+                <option value="mushroom">mushroom</option>
+                <option value="tomato">tomato</option>
+                <option value="pepper">pepper</option>
+            </optgroup>
+            <optgroup label="meats">
+                <option value="chicken">Chicken</option>
+                <option value="beef">Beef</option>
+                <option value="duck">Duck</option>
+            </optgroup>
+        </select>
+       </div>
         <div>
         <input type="submit">
-        <div>
-        <input type="submit">
+        </div>
     </form>
 </body>
 </html>
