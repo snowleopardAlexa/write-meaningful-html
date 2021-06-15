@@ -50,3 +50,8 @@ select {
 option {
     padding: 5px;
 }
+
+optgroup {
+    border: 1px dashed blueviolet;
+    padding: 5px;
+}
