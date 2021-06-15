@@ -20,10 +20,22 @@ input[type="checkbox"]:checked + label {
   font-weight: bold;
 }
 
+input, textarea, select {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 select {
     display: block;
     margin-bottom: 20px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    background-color: white;
+}
+
+select:not([multiple]) {
+    background: url(double-arrow.png) right center no-repeat;
+    background-size: 1em 1em;
+    padding: 1em;
 }
