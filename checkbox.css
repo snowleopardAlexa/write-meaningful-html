@@ -44,6 +44,7 @@ select:not([multiple]) {
 select {
     padding: 8px 1em 8px 8px;
     background-color: lawngreen;
+    border: 2px solid salmon;
 }
 
 option {
