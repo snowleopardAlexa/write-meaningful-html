@@ -29,14 +29,17 @@ input, button {
   padding: 10px;
 }
 
-#styled input[tyoe="submit"]:focus, #styled button[type="submit"]:focus {
+#styled input[type="submit"]:focus, #styled button[type="submit"]:focus {
     border: 2px solid green;
     /* accesibility issue 
     outline:none;
     */
 }
 
-#styled input[tyoe="submit"]:hover, #styled button[type="submit"]:hover {
+#styled input[type="submit"]:hover, #styled button[type="submit"]:hover {
     border: 2px solid blue;
 }
 
+#styled input[type="submit"]:active, #styled button[type="submit"]:active {
+    background-color: 2px solid orange;
+}
