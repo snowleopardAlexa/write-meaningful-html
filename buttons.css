@@ -13,7 +13,7 @@ input, textarea, select {
  -moz-appearance: none;
  apperance: none
  border: 2px solid purple;
- */
+ 
  background-color: greenyellow;
  border-radius: 10px;
  cursor: pointer;
@@ -22,9 +22,16 @@ input, textarea, select {
 button span {
     color: red;
     font-style: italic;
+    */
 }
 
 input, button {
   padding: 10px;
+}
+
+#styled input[tyoe="submit"]:focus, #styled button[type="submit"]:focus {
+    border: 2px solid green;
+    /* accesibility issue */
+    outline:none;
 }
 
