@@ -4,3 +4,12 @@ input[type="checkbox"] {
     margin: 0;
 }
 
+input[type="checkbox"] + label {
+    border: 2px solid purple;
+    background-color: khaki;
+    padding: 4px 10px;
+    border-radius: 7px;
+    display: inline-block;
+    width: 4em;
+    text-align: center;
+}
