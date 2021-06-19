@@ -20,3 +20,10 @@ input[type="checkbox"]:checked + label {
   font-weight: bold;
 }
 
+select {
+    display: block;
+    margin-bottom: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
