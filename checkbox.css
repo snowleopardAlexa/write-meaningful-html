@@ -13,3 +13,9 @@ input[type="checkbox"] + label {
     width: 4em;
     text-align: center;
 }
+
+input[type="checkbox"]:checked + label {
+  border-color: orange;
+  background-color: lavender;
+  font-weight: bold;
+}
