@@ -68,12 +68,10 @@
          <!--radio-->
         <fieldset>
         <legend>What is your favorite color</legend>   
-        <label for="blue">Blue</label>
-        <input type="radio" name="favcolor" value="blue" id="blue">
-        <label for="blue">Red</label>
-        <input type="radio" name="favcolor" value="red" id="red" checked>
-        <label for="blue">Green</label>
-        <input type="radio" name="favcolor" value="green" id="green">
+        <!--we put inputs inside labels so we can apply styles to labels to style radios-->
+        <label for="blue"><input type="radio" name="favcolor" value="blue" id="blue">Blue</label>
+        <label for="blue"> <input type="radio" name="favcolor" value="red" id="red" checked>Red</label>
+        <label for="blue"> <input type="radio" name="favcolor" value="green" id="green">Green</label>
        </fieldset>
         <label for="pizza">What is your favorite pizza?</label>
         <select name="pizza" id="pizza">
