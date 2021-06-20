@@ -35,6 +35,13 @@ input[type="file"] {
     padding-top: .5em;
 }
 
+/* You can't apply styles to radios or checkboxes just like this
+
+input[type="radio"] {
+    border: 1px solid red;
+    background-color: khaki;
+}*/
+
 textarea {
     vertical-align: middle;
 }
