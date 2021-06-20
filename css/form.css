@@ -46,6 +46,8 @@ label {
     border: 1px solid red;
     background-color: khaki; 
     padding: 5px;
+    width: 6em;
+    display: inline-block;
 }
 
 
