@@ -40,14 +40,14 @@ input[type="file"] {
 input[type="radio"] {
     border: 1px solid red;
     background-color: khaki;
-}
+}*/
 
 label {
     border: 1px solid red;
     background-color: khaki; 
     padding: 5px;
     display: inline-block;
-}*/
+}
 
 input[type="checkbox"] {
     opacity: 0;
