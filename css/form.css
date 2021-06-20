@@ -53,6 +53,12 @@ input[type="checkbox"] {
     opacity: 0;
 }
 
+/* replacing checkbox with image checkbox */
+input[type="checkbox"] + label {
+    background-color: url(checkbox-empty.png) left center no-repeat;
+    background-size: 1em 1em;
+}
+
 
 textarea {
     vertical-align: middle;
