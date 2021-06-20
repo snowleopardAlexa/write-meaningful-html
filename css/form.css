@@ -45,7 +45,9 @@ input[type="radio"] {
 label {
     border: 1px solid red;
     background-color: khaki; 
+    padding: 5px;
 }
+
 
 textarea {
     vertical-align: middle;
