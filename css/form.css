@@ -49,6 +49,10 @@ label {
     display: inline-block;
 }
 
+input[type="checkbox"] {
+    opacity: 0;
+}
+
 
 textarea {
     vertical-align: middle;
