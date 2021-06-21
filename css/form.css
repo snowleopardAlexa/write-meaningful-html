@@ -14,3 +14,12 @@ label {
     font-weight: bold;
 }
 
+input[type="date"] + label {
+    color: orange;
+}
+
+/*
+fieldset {
+    color: orange;
+}*/
+
