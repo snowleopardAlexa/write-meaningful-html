@@ -1,0 +1,60 @@
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input, textarea, select {
+    width: 300px;
+    -webikit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[type="text"], 
+input[type="url"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+textarea {
+    width: 12em;
+    padding: 5px;
+    margin: 10px 10px 10px 0px;
+    border-radius: 7px;
+    background-color: pink;
+}
+
+input[type="url"] {
+    width: 20em;
+}
+
+input[type="file"] {
+    font-size: 1em;
+    color: green;
+    padding-top: .5em;
+}
+
+textarea {
+    vertical-align: middle;
+}
+
+label {
+    color: blue;
+    font-weight: bold;
+}
+
+input[type="date"] + label {
+    color: orange;
+}
+
+/*
+fieldset {
+    color: orange;
+}*/
+
+
+legend {
+    color: green;
+}
+
