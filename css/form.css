@@ -20,6 +20,7 @@ input[type="time"],
 textarea {
     width: 12em;
     padding: 5px;
+    margin: 10px 10px 10px 0px;
 }
 
 input[type="url"] {
