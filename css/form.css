@@ -2,3 +2,10 @@ button, input, select, textarea {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
 }
+
+input[type="file"] {
+    font-size: 3em;
+    color: green;
+    padding-top: .5em;
+}
+
