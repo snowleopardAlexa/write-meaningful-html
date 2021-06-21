@@ -33,6 +33,10 @@ input[type="file"] {
     padding-top: .5em;
 }
 
+textarea {
+    vertical-align: middle;
+}
+
 label {
     color: blue;
     font-weight: bold;
