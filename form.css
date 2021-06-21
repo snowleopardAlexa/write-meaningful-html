@@ -35,6 +35,38 @@ input[type="file"] {
     padding-top: .5em;
 }
 
+/* You can't apply styles to radios or checkboxes just like this
+
+input[type="radio"] {
+    border: 1px solid red;
+    background-color: khaki;
+}*/
+
+label {
+    border: 1px solid red;
+    background-color: khaki; 
+    padding: 5px;
+    display: inline-block;
+}
+
+input[type="checkbox"] {
+    opacity: 0;
+}
+
+/* replacing checkbox with image checkbox */
+input[type="checkbox"] + label {
+    background: url(empty-checkbox.png) left center no-repeat;
+    background-size: 10px 10px;
+    padding-left: 1.5em;
+    margin-left: -1.5em;
+}
+
+input[type="checkbox"]:checked + label {
+    background: url(check.png) left center no-repeat;
+    background-size: 1em 1em;
+}
+
+
 textarea {
     vertical-align: middle;
 }

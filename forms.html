@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/form.css" rel="stylesheet" />
+    <link href="form.css" rel="stylesheet" />
     <title>Forms</title>
 </head>
 <body>
@@ -68,12 +68,20 @@
          <!--radio-->
         <fieldset>
         <legend>What is your favorite color</legend>   
-        <label for="blue">Blue</label>
-        <input type="radio" name="favcolor" value="blue" id="blue">
-        <label for="blue">Red</label>
-        <input type="radio" name="favcolor" value="red" id="red" checked>
-        <label for="blue">Green</label>
-        <input type="radio" name="favcolor" value="green" id="green">
+        <!--we put inputs inside labels so we can apply styles to labels to style radios-->
+        <label for="blue"><input type="radio" name="favcolor" value="blue" id="blue">Blue</label>
+        <label for="blue"> <input type="radio" name="favcolor" value="red" id="red" checked>Red</label>
+        <label for="blue"> <input type="radio" name="favcolor" value="green" id="green">Green</label>
+       </fieldset>
+       <!--checboxes-->
+       <fieldset>
+        <legend>What is your favorite pet</legend>   
+        <input type="checkbox" name="dog" value="dog" id="dog">
+        <label for="dog">Dog</label>
+        <input type="checkbox" name="cat" value="cat" id="cat">
+        <label for="cat">Cat</label>
+        <input type="checkbox" name="parrot" value="parrot" id="parrot">
+        <label for="parrot">Parrot</label>
        </fieldset>
         <label for="pizza">What is your favorite pizza?</label>
         <select name="pizza" id="pizza">
@@ -98,7 +106,7 @@
         <label for="search">Search</label> 
         <input type="search" name="search" id="search">
         <button type="submit">Place Order</button><br><br>
-        <input type="image" src="image.jpg" alt="bird" width="130" height="130"><br>
+        <input type="image" src="img/bird.png" alt="bird" width="30" height="200"><br>
         </div><br>
         <div>
             <label for="textarea">Write here</label>
