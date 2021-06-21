@@ -3,6 +3,11 @@ button, input, select, textarea {
     font-size: 100%;
 }
 
+input, textarea, select {
+    -webikit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 input[type="file"] {
     font-size: 1em;
     color: green;
