@@ -16,3 +16,8 @@ input[type="checkbox"] + label {
     display: inline;
 }
 
+/* remove lines around the fieldset */
+fieldset {
+    border-width: 0;
+    padding: 0;
+}
