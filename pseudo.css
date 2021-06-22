@@ -7,10 +7,15 @@ input, textarea, select {
     box-sizing: border-box;
 }
 
+
 input:focus {
     background-color: purple;
 }
 
 input:active {
     background-color: goldenrod;
+}
+
+:disabled {
+    background-color: red;
 }
