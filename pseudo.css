@@ -1,0 +1,16 @@
+button, input, select, textarea {
+    font-size: 100%;
+}
+
+input, textarea, select {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input:focus {
+    background-color: purple;
+}
+
+input:active {
+    background-color: goldenrod;
+}

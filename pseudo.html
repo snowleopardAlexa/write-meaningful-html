@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="pseudo.css" rel="stylesheet" />
     <title>Pseudo-classes</title>
 </head>
 <body>
-    
+    <form action="" method="post">
+		<input type="text" id="name" name="name"><label for="name">Name</label><br><br>
+
+		<input max="10" min="1" type="number" name="age" id="age"><label for="age">Age</label><br><br>
+
+		<fieldset>
+			<legend>Favorite color</legend> 
+
+			<input id="blue" name="fav-color" type="checkbox" value="blue"><label for="blue">blue</label> 
+			<input id="red" name="fav-color" type="checkbox" value="red"><label for="red">red</label> 
+			<input id="green" name="fav-color" type="checkbox" value="green"><label for="green">green</label>
+		</fieldset><br>
+
+		<input type="submit">
+
+	</form>
 </body>
 </html>
