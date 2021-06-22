@@ -7,7 +7,7 @@ input, textarea, select {
     box-sizing: border-box;
 }
 
-
+/*
 input:focus {
     background-color: purple;
 }
@@ -16,7 +16,6 @@ input:active {
     background-color: goldenrod;
 }
 
-/*
 :disabled {
     background-color: red;
 }*/
@@ -25,4 +24,14 @@ input:active {
 input[type="checkbox"]:checked + label {
     background-color: greenyellow;
 }
+
+input[type="number"]:valid {
+    border: 5px solid green;
+}
+
+input[type="number"]:invalid {
+    border: 5px solid saddlebrown;
+}
+
+
 
