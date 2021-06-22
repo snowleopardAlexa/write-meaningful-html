@@ -24,9 +24,13 @@ fieldset {
 
 input[type="text"], input[type="tel"], input[type="email"] {
     width: 90%;
+    margin: .2em auto .8em auto;
 }
 
-#zip {
-    max-width: 10em;
+#zip { max-width: 10em; }
+select, fieldset {
+    margin: .2em auto .8em auto;
 }
+
+
 
