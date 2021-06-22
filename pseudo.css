@@ -16,6 +16,13 @@ input:active {
     background-color: goldenrod;
 }
 
+/*
 :disabled {
     background-color: red;
+}*/
+
+/* applying styles to label not checkbox */
+input[type="checkbox"]:checked + label {
+    background-color: greenyellow;
 }
+
