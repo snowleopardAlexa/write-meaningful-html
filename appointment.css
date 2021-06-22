@@ -32,5 +32,8 @@ select, fieldset {
     margin: .2em auto .8em auto;
 }
 
-
+legend {
+    margin-left: -.1em;
+    font-weight: bold;
+}
 
