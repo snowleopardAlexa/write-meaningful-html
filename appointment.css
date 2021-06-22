@@ -26,5 +26,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
     width: 90%;
 }
 
-
+#zip {
+    max-width: 10em;
+}
 
