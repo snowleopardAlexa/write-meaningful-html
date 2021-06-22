@@ -33,7 +33,7 @@ input[type="number"]:valid {
 input[type="number"]:invalid {
     border: 5px solid saddlebrown;
 }
-*/
+
 
 input[type="number"]:in-range {
     border: 5px solid green;
@@ -42,5 +42,9 @@ input[type="number"]:in-range {
 input[type="number"]:out-of-range {
     border: 5px solid saddlebrown;
 }
+*/
 
+input:required {
+    border: 2px solid purple;
+}
 
