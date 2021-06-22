@@ -10,3 +10,9 @@ input, textarea, select {
 label {
     display: block;
 }
+
+/* display checkboxes inline */
+input[type="checkbox"] + label {
+    display: inline;
+}
+
