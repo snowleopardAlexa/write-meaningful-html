@@ -41,5 +41,10 @@ legend {
     label {
         display: inline;
     }
+    input[type="text"], input[type="tel"], input[type="email"] {
+        width: auto;
+    }
 }
+
+
 
