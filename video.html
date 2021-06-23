@@ -139,6 +139,8 @@
        function updateTime() {
            position.textContent = timeDisplay(media.currentTime);
            duration.textContent = timeDisplay(media.duration);
+           var currentlength = rail.clientWidth * (media.currentTime/media.duration);
+           fill.style.width = currentlength + 'px';
        }
 
        function timeDisplay(t) {
