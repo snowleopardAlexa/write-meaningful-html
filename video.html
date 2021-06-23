@@ -130,7 +130,9 @@
 
        rail.addEventListener('click', seekMedia);
        fill.addEventListener('click', seekMedia);
-       function seekMedia(e) {}
+       function seekMedia(e) {
+           media.currentTime = e.offsetX / rail.offsetWidth * media.duration;
+       }
 
        media.addEventListener('loadedmetadata', updateTime);
        media.addEventListener('timeupdate', updateTime);
