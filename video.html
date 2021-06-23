@@ -118,6 +118,19 @@
        var rail = document.querySelector('#controlbarrail');
        var fill = document.querySelector('#controlbarfill');
 
+       // mouse on hover show controls 
+       var mc = document.querySelector('mediacontrols');
+       media.addEventListener('mouseenter', showControls);
+       function showControls() {
+           mc.style.display = 'block';
+       }
+
+       // stop showing controls while mouse leaves
+       media.addEventListener('mouseleave', hideControls);
+       function hideControls() {
+           mc.style.display = 'none';
+       }
+
        play.addEventListener('click', playMedia);
        function playMedia() {
           media.play();
