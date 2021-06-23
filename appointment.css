@@ -42,12 +42,13 @@ legend {
         display: inline;
     }
     input[type="text"], input[type="tel"], input[type="email"] {
-        width: auto;
+        width: 55%;
     }
     label {
         width: 10em;
         display: inline-block;
     }
+
 }
 
 
