@@ -44,6 +44,10 @@ legend {
     input[type="text"], input[type="tel"], input[type="email"] {
         width: auto;
     }
+    label {
+        width: 10em;
+        display: inline-block;
+    }
 }
 
 
