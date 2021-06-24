@@ -134,7 +134,9 @@
 
        media.addEventListener('loadedmetadata', updateTime);
        media.addEventListener('timeupdate', updateTime);
-       function updateTime() {}
+       function updateTime() {
+           position.textContent = timeDisplay(media.currentTime);
+       }
 
     </script>
 </body>
