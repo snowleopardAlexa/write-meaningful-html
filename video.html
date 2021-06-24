@@ -136,6 +136,7 @@
        media.addEventListener('timeupdate', updateTime);
        function updateTime() {
            position.textContent = timeDisplay(media.currentTime);
+           duration.textContent = timeDisplay(media.duration);
        }
 
     </script>
