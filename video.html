@@ -119,10 +119,14 @@
        var fill = document.querySelector('#controlbarfill');
 
        play.addEventListener('click', playMedia);
-       function playMedia() {}
+       function playMedia() {
+          media.play();
+       }
 
        pause.addEventListener('click', pauseMedia);
-       function pauseMedia() {}
+       function pauseMedia() {
+          media.pause();
+       }
 
        rail.addEventListener('click', seekMedia);
        fill.addEventListener('click', seekMedia);
